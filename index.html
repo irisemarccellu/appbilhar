@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciador de Mesas de Bilhar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Mesas de Bilhar 🎱</h1>
+
+    <form id="mesaForm">
+      <input type="text" id="nomeMesa" placeholder="Nome da mesa" required />
+      <input type="text" id="localizacao" placeholder="Local (vila/cidade)" required />
+      <input type="number" id="valor" placeholder="Total Arrecadado" required />
+      <button type="submit">Registrar Mesa</button>
+    </form>
+
+    <div id="listaMesas"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
